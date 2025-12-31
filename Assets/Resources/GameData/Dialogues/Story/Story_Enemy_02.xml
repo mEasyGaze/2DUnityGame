@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+  <!-- 片段 1: 玩家絕望 -->
+  <Dialogue id="Part1_Despair">
+    <Segment id="Start">
+      <DialogueChain>
+        <Line><Speaker>玩家</Speaker><Text>完蛋，要被吃掉了！</Text></Line>
+        <Line><Speaker>魔獸</Speaker><Text>吼！！！</Text></Line>
+      </DialogueChain>
+      <IsEnd>true</IsEnd>
+      <Action type="ContinueDialogue" />
+    </Segment>
+  </Dialogue>
+
+  <!-- 片段 2: 魔獸倒下 -->
+  <Dialogue id="Part2_MonsterDown">
+    <Segment id="Start">
+      <Speaker>魔獸</Speaker>
+      <Text>吼…… (倒下)</Text>
+      <IsEnd>true</IsEnd>
+      <Action type="ContinueDialogue" />
+    </Segment>
+  </Dialogue>
+
+  <!-- 片段 3: 神秘人對話 -->
+  <Dialogue id="Part3_Conversation">
+    <Segment id="Start">
+      <DialogueChain>
+        <Line><Speaker>神秘人</Speaker><Text>沒事吧？</Text></Line>
+        <Line><Speaker>玩家</Speaker><Text>沒事，謝謝您。</Text></Line>
+        <Line><Speaker>神秘人</Speaker><Text>最近魔獸動亂別離村子太遠。</Text></Line>
+        <Line><Speaker>玩家</Speaker><Text>知道了。</Text></Line>
+        <Line><Speaker>神秘人</Speaker><Text>我先走了。</Text></Line>
+      </DialogueChain>
+      <IsEnd>true</IsEnd>
+      <Action type="ContinueDialogue" />
+    </Segment>
+  </Dialogue>
+
+  <!-- 片段 4: 結尾 -->
+  <Dialogue id="Part4_Ending">
+    <Segment id="Start">
+      <DialogueChain>
+        <Line><Speaker>玩家</Speaker><Text>這人真厲害！</Text></Line>
+        <Line><Speaker>玩家</Speaker><Text>對了，還要交付生命礦石給藥師！</Text></Line>
+      </DialogueChain>
+      <IsEnd>true</IsEnd>
+      <Action type="ContinueDialogue" />
+    </Segment>
+  </Dialogue>
+</DialogueDatabase>

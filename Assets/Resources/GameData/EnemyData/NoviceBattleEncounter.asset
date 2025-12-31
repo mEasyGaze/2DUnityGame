@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01065c746d4994a42b87554a56d588ed, type: 3}
+  m_Name: NoviceBattleEncounter
+  m_EditorClassIdentifier: 
+  enemyTeam:
+  - enemyData: {fileID: 11400000, guid: 63eb0366e6177ef448726e753ec4380a, type: 2}
+    role: 0
+  enemyPersonality: {fileID: 0}
+  totalGoldReward: 999
+  defeatType: 2
+  defeatSceneName: 
+  defeatPosition: {x: 0, y: 0, z: 0}
+  defeatEventID: Story_Enemy_02

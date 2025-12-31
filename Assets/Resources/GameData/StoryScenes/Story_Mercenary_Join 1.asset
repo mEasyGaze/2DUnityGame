@@ -1,0 +1,325 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6334417a32df56c45be729042d19ed33, type: 3}
+  m_Name: Story_Mercenary_Join 1
+  m_EditorClassIdentifier: 
+  sceneID: Story_Enemy_02
+  restoreSceneBgmOnEnd: 1
+  phases:
+  - phaseName: "\u7DE9\u4E00\u4E0B"
+    actions:
+    - actionType: 9
+      targetObjectName: "\u50AD\u5175"
+      targetPosition: {x: -10, y: 0}
+      duration: 0.5
+      boolValue: 1
+      dialogueFilePath: Story/Story_Enemy_02
+      dialogueID: Part4_Ending
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u7D55\u671B\u6642\u523B"
+    actions:
+    - actionType: 18
+      targetObjectName: Player
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: Loop_Battle
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 8
+      targetObjectName: Player
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_02
+      dialogueID: Part1_Despair
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u98DB\u65A7\u6551\u63F4"
+    actions:
+    - actionType: 1
+      targetObjectName: "\u65A7\u982D"
+      targetPosition: {x: 0, y: 0}
+      duration: 0
+      boolValue: 1
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 6
+      targetObjectName: "\u65A7\u982D"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.8
+      boolValue: 1
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 1
+      subStoryToRun: {fileID: 0}
+    - actionType: 5
+      targetObjectName: "\u65A7\u982D"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.8
+      boolValue: 1
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: -720}
+      parabolaHeight: 1
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u795E\u79D8\u4EBA\u73FE\u8EAB"
+    actions:
+    - actionType: 1
+      targetObjectName: "\u50AD\u5175"
+      targetPosition: {x: 0, y: 0}
+      duration: 0
+      boolValue: 1
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 13
+      targetObjectName: "\u50AD\u5175"
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 1
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 13
+      targetObjectName: "\u4E2D\u592E"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.7
+      boolValue: 1
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u9806\u79FB"
+    actions:
+    - actionType: 0
+      targetObjectName: "\u50AD\u5175"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.1
+      boolValue: 0
+      dialogueFilePath: Story/meet_mercenary
+      dialogueID: dialogue_meet_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 9
+      targetObjectName: "\u50AD\u5175"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.2
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_02
+      dialogueID: Part2_MonsterDown
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u65AC\u6BBA"
+    actions:
+    - actionType: 1
+      targetObjectName: "\u7279\u6548"
+      targetPosition: {x: 0, y: 0}
+      duration: 0
+      boolValue: 1
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 0
+      targetObjectName: "\u7279\u6548"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.1
+      boolValue: 1
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 22
+      targetObjectName: "\u7279\u6548"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.1
+      boolValue: 0
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: "\u65AC\u64CA"
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u7279\u6548\u95DC\u9589"
+    actions:
+    - actionType: 1
+      targetObjectName: "\u7279\u6548"
+      targetPosition: {x: -10, y: 0}
+      duration: 3.5
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_02
+      dialogueID: Part4_Ending
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u9B54\u7378\u5012\u4E0B"
+    actions:
+    - actionType: 8
+      targetObjectName: "\u7279\u6548"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.5
+      boolValue: 1
+      dialogueFilePath: Story/Story_Enemy_02
+      dialogueID: Part2_MonsterDown
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 22
+      targetObjectName: "\u9B54\u7378"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.1
+      boolValue: 1
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: "\u6B7B\u4EA1"
+      newSprite: {fileID: 1823481912868446307, guid: f68b1185da1fbdc45b9a6f909b3677c5, type: 3}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 4
+      targetObjectName: "\u9B54\u7378"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.1
+      boolValue: 0
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 1823481912868446307, guid: f68b1185da1fbdc45b9a6f909b3677c5, type: 3}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 18
+      targetObjectName: "\u7279\u6548"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.1
+      boolValue: 0
+      dialogueFilePath: 
+      dialogueID: 
+      objectToSpawn: {fileID: 0}
+      stringID: BGM_Game
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u795E\u79D8\u4EBA\u5C0D\u8A71"
+    actions:
+    - actionType: 8
+      targetObjectName: "\u7279\u6548"
+      targetPosition: {x: 0, y: 0}
+      duration: 0.5
+      boolValue: 1
+      dialogueFilePath: Story/Story_Enemy_02
+      dialogueID: Part3_Conversation
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u795E\u79D8\u4EBA\u96E2\u958B"
+    actions:
+    - actionType: 0
+      targetObjectName: "\u50AD\u5175"
+      targetPosition: {x: -10, y: 0}
+      duration: 3.5
+      boolValue: 1
+      dialogueFilePath: Story/Story_Enemy_02
+      dialogueID: Part3_Conversation
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u7D50\u5C3E\u7368\u767D"
+    actions:
+    - actionType: 8
+      targetObjectName: "\u50AD\u5175"
+      targetPosition: {x: -10, y: 0}
+      duration: 3.5
+      boolValue: 1
+      dialogueFilePath: Story/Story_Enemy_02
+      dialogueID: Part4_Ending
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}

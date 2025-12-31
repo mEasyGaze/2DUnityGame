@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66551b9d4eb210248895d58b429390db, type: 3}
+  m_Name: Novice_03
+  m_EditorClassIdentifier: 
+  tutorialID: Novice_03_QuestIcons
+  tutorialTitle: "\u4EFB\u52D9\u63D0\u793A"
+  steps:
+  - title: "\u4EFB\u52D9\u63D0\u793A"
+    description: "\u7576NPC\u982D\u4E0A\u51FA\u73FE\u3010?\u3011\u6642\uFF0C\u8868\u793A\u4F60\u6709\u76F8\u95DC\u7684\u4EFB\u52D9\u53EF\u4EE5\u56DE\u5831\u3002\n\u7576\u51FA\u73FE\u3010!\u3011\u6642\uFF0C\u5247\u8868\u793A\u6709\u65B0\u7684\u4EFB\u52D9\u53EF\u4EE5\u63A5\u53D6\u3002"
+    image: {fileID: 0}
+    layoutPrefab: {fileID: 1647939488358769461, guid: da0d33d4e3ddd2443b6810cf2e800c7c, type: 3}

@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f003839677aa0a419508b24d8b061d6, type: 3}
+  m_Name: IQL_01
+  m_EditorClassIdentifier: 
+  itemName: "\u4FE1\u4EF6"
+  description: "\u7D66\u58EB\u5175\u7684\u4FE1\u4EF6"
+  icon: {fileID: -7234209853984510790, guid: beb36e127e2449946a49f06b6c28899a, type: 3}
+  itemType: 3
+  maxStackAmount: 1
+  uniqueItemID: IQL_01
+  canBeBought: 0
+  buyPrice: 10
+  canBeSold: 0
+  sellPrice: 5
+  healAmount: 0

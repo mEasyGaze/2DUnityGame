@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f003839677aa0a419508b24d8b061d6, type: 3}
+  m_Name: IFT_01
+  m_EditorClassIdentifier: 
+  itemName: "\u5BE7\u795E\u82B1"
+  description: "\u4E00\u7A2E\u85E5\u6750\uFF0C\u7121\u6CD5\u76F4\u63A5\u98DF\u7528"
+  icon: {fileID: -1560676958866577928, guid: 9c76cae74b15df748ae10ee32aa7e957, type: 3}
+  itemType: 0
+  maxStackAmount: 99
+  uniqueItemID: IFT_01
+  canBeBought: 1
+  buyPrice: 10
+  canBeSold: 1
+  sellPrice: 5
+  healAmount: 0

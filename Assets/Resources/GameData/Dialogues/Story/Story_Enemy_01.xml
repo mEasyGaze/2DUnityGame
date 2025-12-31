@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+  <Dialogue id="Part1_PlayerMonologue">
+    <Segment id="start">
+      <Speaker>玩家</Speaker>
+      <Text>採集完了，可以回去了。</Text>
+      <IsEnd>true</IsEnd>
+    </Segment>
+  </Dialogue>
+
+  <Dialogue id="Part2_PlayerReaction">
+    <Segment id="start">
+      <DialogueChain>
+        <Line><Speaker>玩家</Speaker><Text>魔獸！</Text></Line>
+        <Line><Speaker>玩家</Speaker><Text>城鎮怎麼會出現魔獸！</Text></Line>
+        <!-- 可以在此處插入魔獸吼叫的旁白 -->
+        <Line><Speaker>旁白</Speaker><Text>魔獸發出低沉的吼叫！</Text></Line>
+        <Line><Speaker>玩家</Speaker><Text>看來不打贏魔獸是出不去了！</Text></Line>
+      </DialogueChain>
+      <IsEnd>true</IsEnd>
+    </Segment>
+  </Dialogue>
+</DialogueDatabase>

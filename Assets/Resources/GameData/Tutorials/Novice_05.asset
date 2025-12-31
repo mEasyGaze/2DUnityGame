@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66551b9d4eb210248895d58b429390db, type: 3}
+  m_Name: Novice_05
+  m_EditorClassIdentifier: 
+  tutorialID: Novice_05_
+  tutorialTitle: "\u6230\u9B25\u968A\u4F0D"
+  steps:
+  - title: "\u6230\u9B25\u968A\u4F0D"
+    description: 
+    image: {fileID: 0}
+    layoutPrefab: {fileID: 4427178585775155239, guid: 6404230eb3fc33b4b9f85d3c6de0acc5, type: 3}

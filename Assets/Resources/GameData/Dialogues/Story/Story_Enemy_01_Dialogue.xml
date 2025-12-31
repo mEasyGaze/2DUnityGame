@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+    <!-- 玩家採集完的內心獨白 -->
+    <Dialogue id="Player_Thought_01">
+        <Segment id="start">
+            <Speaker>玩家</Speaker>
+            <Text>採集完了，可以回去了。</Text>
+            <Action type="EndDialogue" />
+            <IsEnd>true</IsEnd>
+        </Segment>
+    </Dialogue>
+
+    <!-- 玩家看到魔獸的反應 -->
+    <Dialogue id="Player_React_01">
+        <Segment id="start">
+            <DialogueChain>
+                <Line><Speaker>玩家</Speaker><Text>魔獸！</Text></Line>
+                <Line><Speaker>玩家</Speaker><Text>城鎮怎麼會出現魔獸！</Text></Line>
+            </DialogueChain>
+            <Action type="EndDialogue" />
+            <IsEnd>true</IsEnd>
+        </Segment>
+    </Dialogue>
+
+    <!-- 魔獸的吼叫 -->
+    <Dialogue id="Monster_Roar_01">
+        <Segment id="start">
+            <Speaker>魔獸</Speaker>
+            <Text>吼！</Text>
+            <Action type="EndDialogue" />
+            <IsEnd>true</IsEnd>
+        </Segment>
+    </Dialogue>
+
+    <!-- 玩家下定決心 -->
+    <Dialogue id="Player_Resolve_01">
+        <Segment id="start">
+            <Speaker>玩家</Speaker>
+            <Text>看來不打贏魔獸是出不去了！</Text>
+            <Action type="EndDialogue" />
+            <IsEnd>true</IsEnd>
+        </Segment>
+    </Dialogue>
+</DialogueDatabase>

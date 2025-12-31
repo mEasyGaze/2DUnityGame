@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 921c7beba14024c4899f7fa55c6d1325, type: 3}
+  m_Name: Barret
+  m_EditorClassIdentifier: 
+  memberID: mem_barret
+  memberName: "\u5DF4\u96F7\u7279"
+  memberIcon: {fileID: -8072682708651978146, guid: e68c7d5283609eb42a3d330aa042473b, type: 3}
+  unitPrefab: {fileID: 5706966496600202117, guid: 928200f9c81dd19498fc65480b1e801a, type: 3}
+  baseHealth: 50
+  baseAttack: 10
+  baseStamina: 5
+  attackRange: 5
+  skillIDs: []
+  healthPerLevel: 0
+  attackPerLevel: 0

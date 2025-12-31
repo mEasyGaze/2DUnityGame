@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1b6941b60c6b914d8423ebcb610130e, type: 3}
+  m_Name: AIPB
+  m_EditorClassIdentifier: 
+  vanguardStrategy:
+    tactics:
+    - {fileID: 11400000, guid: 2e7e85290b8c95142940818c562514b8, type: 2}
+  ranged1Strategy:
+    tactics:
+    - {fileID: 11400000, guid: cb94353bcf83a644596db9a389610d0b, type: 2}
+  ranged2Strategy:
+    tactics:
+    - {fileID: 11400000, guid: ac172f9636189964bbd8acb9e92ba795, type: 2}
+  supportStrategy:
+    tactics:
+    - {fileID: 11400000, guid: fd11cb55d07d00c4c8e07496be23d9fa, type: 2}

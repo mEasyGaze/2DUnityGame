@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 852adeb2a065ceb4aa13a3efb20ce232, type: 3}
+  m_Name: NewShopInventory
+  m_EditorClassIdentifier: 
+  shopName: "\u96DC\u8CA8\u5E97"
+  initialFund: 1000
+  fixedStock:
+  - item: {fileID: 11400000, guid: 65cca751ac833aa4eb5474318f187a7d, type: 2}
+    quantity: 5
+  unlockableStock:
+  - itemToUnlock:
+      item: {fileID: 11400000, guid: c8c453169e6e131499c9ed7db6e69c5b, type: 2}
+      quantity: 5
+    conditionType: 1
+    conditionID: q_001
+  - itemToUnlock:
+      item: {fileID: 11400000, guid: 0fcf14d8ad2e4c64d9ce8b93bda4e9f1, type: 2}
+      quantity: 10
+    conditionType: 1
+    conditionID: QUEST_q_002_COMPLETED
+  refreshIntervalDays: 1
+  randomItemsPerRefresh: 3
+  randomStockPool: []

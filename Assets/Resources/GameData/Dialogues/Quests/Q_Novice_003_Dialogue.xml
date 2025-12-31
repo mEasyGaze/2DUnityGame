@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+    <Dialogue id="Novice_003_Available">
+        <Segment id="Start">
+            <Branch>
+                <Check type="GameEventTriggered" value="Event_Q003_FirstComplete" />
+                <OnTrue>
+                    <Action type="GoToSegment" value="Available_Repeat" />
+                </OnTrue>
+                <OnFalse>
+                    <Action type="GoToSegment" value="Available_FirstTime" />
+                </OnFalse>
+            </Branch>
+        </Segment>
+
+        <Segment id="Available_FirstTime">
+            <Speaker>藥草商人</Speaker>
+            <Text>最近採集藥草的人越來越少，我這邊的藥草又不夠用了。</Text>
+
+            <Options>
+                <Option>
+                    <Text>交給我去採吧！</Text>
+                    <Action type="GoToSegment" value="Available_1" />
+                </Option>
+
+                <Option>
+                    <Text>這樣啊，希望你能早點找到幫助者。</Text>
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+
+        <Segment id="Available_1">
+            <Speaker>藥草商人</Speaker>
+            <Text>(上下打量我)</Text>
+            <DialogueChain>
+                <Line>
+                    <Speaker>藥草商人</Speaker>
+                    <Text>好吧，那就交給你了，幫我去採5個藥草，我就給你一瓶紅藥水。</Text>
+                </Line>
+
+                <Line>
+                    <Speaker>玩家</Speaker>
+                    <Text>交給我吧！</Text>
+                </Line>
+            </DialogueChain>
+            <Actions>
+                <Action type="AcceptQuest" value="Q_Novice_003" />
+            </Actions>
+            <IsEnd>true</IsEnd>
+        </Segment>
+
+        <Segment id="Available_Repeat">
+            <Speaker>藥草商人</Speaker>
+            <Text>藥草又不夠了，能再麻煩你幫我去採5個嗎？報酬一樣是一瓶紅藥水。</Text>
+            <IsEnd>true</IsEnd>
+            <Options>
+                <Option>
+                    <Text>沒問題！</Text>
+                    <Action type="AcceptQuest" value="Q_Novice_003" />
+                    <Action type="EndDialogue" />
+                </Option>
+                 <Option>
+                    <Text>下次再說吧。</Text>
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+    </Dialogue>
+
+    <Dialogue id="Q_Novice_003_Branch">
+        <Segment id="Check">
+            <Branch>
+                <Check type="HasItem" value="IQL_02,5" />
+                <OnTrue>
+                    <Action type="GoToSegment" value="Completable" />
+                </OnTrue>
+                <OnFalse>
+                    <Action type="GoToSegment" value="InProgress" />
+                </OnFalse>
+            </Branch>
+        </Segment>
+
+        <Segment id="InProgress">
+            <Speaker>藥草商人</Speaker>
+            <Text>有採到藥草嗎？</Text>
+            <DialogueChain>
+                <Line>
+                    <Speaker>玩家</Speaker>
+                    <Text>還沒，我現在去採。</Text>
+                </Line>
+            </DialogueChain>
+            <IsEnd>true</IsEnd>
+        </Segment>
+
+        <Segment id="Completable">
+            <Speaker>藥草商人</Speaker>
+            <Text>有採到藥草嗎？</Text>
+
+            <Options>
+                <Option>
+                    <Text>採到了，5株。(將藥草遞給藥草商人)</Text>
+                    <Action type="RemoveItem" value="IQL_02,5" />
+                    <Action type="GoToSegment" value="Completable_1" />
+                </Option>
+
+                <Option>
+                    <Text>還沒，我現在去採。</Text>
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+        <Segment id="Completable_1">
+            <Speaker>藥草商人</Speaker>
+            <Text>太棒了，這是答應給你的紅藥水。</Text>
+
+            <Options>
+                <Option>
+                    <Text>謝謝。[收下紅藥水]</Text>
+                    <Action type="AddItem" value="IMR_01,1" />
+                    <Action type="CompleteQuest" value="Q_Novice_003" />
+                    <Action type="TriggerGameEvent" value="Event_Q003_FirstComplete" />
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+    </Dialogue>
+</DialogueDatabase>

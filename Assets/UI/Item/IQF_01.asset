@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8f003839677aa0a419508b24d8b061d6, type: 3}
+  m_Name: IQF_01
+  m_EditorClassIdentifier: 
+  itemName: "\u82B1"
+  description: "\u4ED6\u662F\u82B1"
+  icon: {fileID: 7861276498898140590, guid: 59f7ebed9793f92419c2c8aa75a98c4e, type: 3}
+  itemType: 4
+  maxStackAmount: 60
+  uniqueItemID: IQF_01
+  canBeBought: 1
+  buyPrice: 10
+  canBeSold: 1
+  sellPrice: 5
+  healAmount: 0

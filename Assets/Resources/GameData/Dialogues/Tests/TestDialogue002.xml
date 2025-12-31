@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+  <Dialogue id="Test_Scrolling_And_Navigation">
+    <Segment id="start">
+      <Speaker>系統測試員</Speaker>
+      <Text>你好！這是一個用於測試對話框滾動和鍵盤導航的專用對話。請嘗試使用鍵盤的上下方向鍵來選擇下面的選項。</Text>
+      
+      <!-- 總共 15 個選項，足以觸發滾動 -->
+      <Options>
+        <Option>
+          <Text>選項 1：這是一個正常的選項。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 2：繼續向下測試。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 3：鍵盤導航應該被鎖定在這個列表中。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 4：不會選到對話框外的其他按鈕。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 5：這是一個超級無敵長長長長長長長長長長長長長的選項，它的目的是為了測試當文字內容非常多時，按鈕的背景是否能夠自動換行並且撐開自己的高度，以確保所有文字都能被完整、清晰地顯示出來，而不會超出邊界或被截斷。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 6：一個短選項。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 7：現在，當你用鍵盤向下選擇時...</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 8：滾動視圖 (Scroll View) 應該會自動跟隨你的選擇。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 9：確保當前選中的按鈕始終在可視範圍內。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 10：這極大地提升了鍵盤操作的流暢度。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 11：繼續測試...</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 12：快到底了。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 13：再向下一個。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 14：這是倒數第二個選項。</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+        <Option>
+          <Text>選項 15：恭喜！你成功到達了列表的末尾！</Text>
+          <Action type="GoToSegment" value="end" />
+        </Option>
+      </Options>
+    </Segment>
+
+    <Segment id="end">
+      <Speaker>系統測試員</Speaker>
+      <Text>測試成功！所有功能均按預期工作。</Text>
+      <IsEnd>true</IsEnd>
+    </Segment>
+  </Dialogue>
+</DialogueDatabase>

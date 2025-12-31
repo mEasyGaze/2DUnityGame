@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50fd0e6629e87a242a0ff26751a24373, type: 3}
+  m_Name: "\u9B54\u72FC"
+  m_EditorClassIdentifier: 
+  enemyID: Wolf
+  enemyName: "\u9B54\u72FC"
+  enemyIcon: {fileID: 624409668554240681, guid: 72c73cc0b7c657846951b4e22398f477, type: 3}
+  enemyPrefab: {fileID: 5706966496600202117, guid: 928200f9c81dd19498fc65480b1e801a, type: 3}
+  baseHealth: 9999
+  baseAttack: 80
+  baseStamina: 120
+  attackRange: 3
+  skillIDs:
+  - 
+  goldDrop: 999

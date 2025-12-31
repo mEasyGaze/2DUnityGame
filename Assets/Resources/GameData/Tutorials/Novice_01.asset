@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66551b9d4eb210248895d58b429390db, type: 3}
+  m_Name: Novice_01
+  m_EditorClassIdentifier: 
+  tutorialID: Novice_01_Movement
+  tutorialTitle: "\u904A\u6232\u57FA\u790E\u64CD\u4F5C"
+  steps:
+  - title: "\u6B61\u8FCE\u4F86\u5230\u904A\u6232"
+    description: "\u4F7F\u7528 W/A/S/D \u4F86\u79FB\u52D5\u4F60\u7684\u89D2\u8272\u3002\n\u6309
+      E \u9375\u53EF\u4EE5\u8207\u7269\u9AD4\u4E92\u52D5\u3002\n\u96A8\u6642\u53EF\u4EE5\u6309
+      ESC \u6253\u958B\u7CFB\u7D71\u83DC\u55AE\u3002"
+    image: {fileID: 0}
+    layoutPrefab: {fileID: 1647939488358769461, guid: da0d33d4e3ddd2443b6810cf2e800c7c, type: 3}
+  - title: "\u56DE\u9867\u6559\u5B78"
+    description: "\u6253\u958B\u7CFB\u7D71\u83DC\u55AE\u5F8C\uFF0C\u53EF\u4EE5\u8ABF\u6574\u6309\u9375\u3001\u8ABF\u6574\u97F3\u91CF(\u672A\u8A2D\u8A08)\u3001\u56DE\u9867\u6559\u5B78\u3001\u5B58\u6A94\u8B80\u6A94\u3002"
+    image: {fileID: 0}
+    layoutPrefab: {fileID: 1647939488358769461, guid: da0d33d4e3ddd2443b6810cf2e800c7c, type: 3}

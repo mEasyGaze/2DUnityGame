@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+  <Dialogue id="Note_Main">
+    <Segment id="start">
+      <Speaker>紙條</Speaker>
+      <Text>我和爸爸去魔獸團了。</Text>
+      <Options>
+        <Option>
+          <Text>(紙條是媽媽留的，看來他們又去工作了。)</Text>
+          <Action type="EndDialogue" />
+        </Option>
+      </Options>
+    </Segment>
+  </Dialogue>
+</DialogueDatabase>

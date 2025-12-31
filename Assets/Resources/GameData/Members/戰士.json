@@ -1,0 +1,11 @@
+{
+    "memberID": "m_001",
+    "memberName": "戰士",
+    "description": "攻守兼備的近戰專家，擁有穩定的輸出和不俗的防禦能力。",
+    "baseHealth": 50,
+    "baseAttack": 5,
+    "attackCost": 2,
+    "defenseCost": 2,
+    "skillIDs": [],
+    "portraitPath": "Portraits/warrior"
+}

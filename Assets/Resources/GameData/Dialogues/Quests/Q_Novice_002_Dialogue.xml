@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+    <Dialogue id="Novice_002_Available">
+        <Segment id="Start">
+            <Speaker>魔獸團衛兵</Speaker>
+            <Text>跟上次一樣，幫我去藥草商店買5個藥草。</Text>
+            <IsEnd>true</IsEnd>
+            <Options>
+                <Option>
+                    <Text>好，交給我吧。</Text>
+                    <Action type="AddMoney" value="100" />
+                    <Action type="AcceptQuest" value="Q_Novice_002" />
+                    <Action type="EndDialogue" />
+                </Option>
+                <Option>
+                    <Text>下次吧。</Text>
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+    </Dialogue>
+
+    <Dialogue id="Q_Novice_002_Branch">
+        <Segment id="Check">
+            <Branch>
+                <Check type="QuestCheck" value="IsCompletable,Q_Novice_002" />
+                <OnTrue><Action type="GoToSegment" value="Completable" /></OnTrue>
+                <OnFalse><Action type="GoToSegment" value="InProgress" /></OnFalse>
+            </Branch>
+        </Segment>
+
+        <Segment id="InProgress">
+            <Speaker>魔獸團衛兵</Speaker>
+            <Text>藥草買完了嗎？</Text>
+            <Options>
+                <Option>
+                    <Text>還沒，我現在去。</Text>
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+            <IsEnd>true</IsEnd>
+        </Segment>
+
+        <Segment id="Completable">
+            <Speaker>魔獸團衛兵</Speaker>
+            <Text>藥草買完了嗎？</Text>
+            <IsEnd>true</IsEnd>
+            <Options>
+                <Option>
+                    <Text>買完了，藥草在這。(將藥草遞給衛兵)</Text>
+                    <Action type="RemoveItem" value="IQH_01,5" />
+                    <Action type="GoToSegment" value="Completable_1" />
+                </Option>
+                <Option>
+                    <Text>還沒，我現在就去。</Text>
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+        <Segment id="Completable_1">
+            <Speaker>魔獸團衛兵</Speaker>
+            <Text>真棒，剩下的錢就給你當獎勵了。</Text>
+            <Options>
+                <Option>
+                    <Text>謝謝叔叔。</Text>
+                    <Action type="CompleteQuest" value="Q_Novice_002" />
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+    </Dialogue>
+</DialogueDatabase>

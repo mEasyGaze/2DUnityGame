@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+    <Dialogue id="Test_01">
+        <Segment id="start">
+            <Speaker>玩家</Speaker>
+            <Text>測試對話。</Text>
+            <Action type="EndDialogue" />
+            <IsEnd>true</IsEnd>
+        </Segment>
+    </Dialogue>
+</DialogueDatabase>

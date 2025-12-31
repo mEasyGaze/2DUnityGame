@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+  <Dialogue id="Test_Greeting">
+    <Segment id="start">
+      <Speaker>旁白</Speaker>
+      <Text>這是一個由劇情系統觸發的測試對話。</Text>
+      <IsEnd>true</IsEnd>
+    </Segment>
+  </Dialogue>
+</DialogueDatabase>

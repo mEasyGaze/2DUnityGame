@@ -1,0 +1,26 @@
+<DialogueDatabase>
+  <Dialogue id="dialogue_meet_01">
+    <Segment id="seg_01">
+      <Speaker>神秘傭兵</Speaker>
+      <Text>看來你需要一點幫助，菜鳥。</Text>
+      <Options>
+        <Option>
+          <Text>牠很危險！</Text>
+          <Action type="GoToSegment" value="seg_02" />
+        </Option>
+      </Options>
+    </Segment>
+
+    <Segment id="seg_02">
+      <Speaker>神秘傭兵</Speaker>
+      <Text>沒事，我輕輕鬆鬆擊殺牠。</Text>
+      <Options>
+        <Option>
+          <Text>[離開]</Text>
+          <Action type="AddPartyMember" value="member_mercenary_01" />
+          <Action type="EndDialogue" />
+        </Option>
+      </Options>
+    </Segment>
+  </Dialogue>
+</DialogueDatabase>

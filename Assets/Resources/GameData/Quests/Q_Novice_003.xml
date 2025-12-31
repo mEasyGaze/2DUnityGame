@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Quest id="Q_Novice_003">
+    <Name>採集藥草</Name>
+    <Description>藥草商人需要藥草，請到藥園去採集5個藥草。</Description>
+    <GiverNPC>NPC_Herbs_01</GiverNPC>
+    <HandInNPC>NPC_Herbs_01</HandInNPC>
+    <Prerequisites>
+        <QuestID>Q_Novice_002</QuestID>
+    </Prerequisites>
+    <IsRepeatable>true</IsRepeatable>
+    <Objectives>
+        <Objective type="Collect" targetID="IQL_02" amount="5" description="採集5個生命礦石。" />
+    </Objectives>
+    <Rewards>
+        <Item id="IMR_01" amount="1" />
+    </Rewards>
+</Quest>

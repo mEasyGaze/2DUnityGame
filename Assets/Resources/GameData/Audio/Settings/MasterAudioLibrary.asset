@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fdf77e1fedda40446a7b80da2a1b0026, type: 3}
+  m_Name: MasterAudioLibrary
+  m_EditorClassIdentifier: 
+  sounds:
+  - soundID: BGM_Title
+    clip: {fileID: 8300000, guid: 2fadd7f2a5a28a74ca073ef492f2d3b5, type: 3}
+    volume: 0.8
+    pitchVariance: 0
+    outputGroup: {fileID: 5828943905824032912, guid: e342d7f10f9751a4faef74901cd33e97, type: 2}
+    loop: 1
+  - soundID: BGM_Game
+    clip: {fileID: 8300000, guid: 8d483892cdb8aa946a941265e1c9cb54, type: 3}
+    volume: 0.7
+    pitchVariance: 0
+    outputGroup: {fileID: 5828943905824032912, guid: e342d7f10f9751a4faef74901cd33e97, type: 2}
+    loop: 1
+  - soundID: BGM_Battle
+    clip: {fileID: 8300000, guid: 34ff9fdc63a9c1e4ba8bfa4aba07fcb2, type: 3}
+    volume: 0.8
+    pitchVariance: 0
+    outputGroup: {fileID: 5828943905824032912, guid: e342d7f10f9751a4faef74901cd33e97, type: 2}
+    loop: 1
+  - soundID: UI_Click
+    clip: {fileID: 8300000, guid: 04be329ff4ad37f4baad5a34b7030383, type: 3}
+    volume: 1
+    pitchVariance: 0.1
+    outputGroup: {fileID: -1420913014655517272, guid: e342d7f10f9751a4faef74901cd33e97, type: 2}
+    loop: 0
+  - soundID: UI_Hover
+    clip: {fileID: 8300000, guid: 5cf93aa15c5a5b3458a848a6314cf700, type: 3}
+    volume: 0.6
+    pitchVariance: 0.05
+    outputGroup: {fileID: -1420913014655517272, guid: e342d7f10f9751a4faef74901cd33e97, type: 2}
+    loop: 0
+  - soundID: Loop_Battle
+    clip: {fileID: 8300000, guid: 8f22e19441ac30f40b913b8a85a785ef, type: 3}
+    volume: 0.6
+    pitchVariance: 0.05
+    outputGroup: {fileID: 5828943905824032912, guid: e342d7f10f9751a4faef74901cd33e97, type: 2}
+    loop: 0

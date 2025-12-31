@@ -1,0 +1,230 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6334417a32df56c45be729042d19ed33, type: 3}
+  m_Name: Story_Enemy_01
+  m_EditorClassIdentifier: 
+  sceneID: Story_Enemy_01
+  restoreSceneBgmOnEnd: 1
+  phases:
+  - phaseName: "\u73A9\u5BB6\u7368\u767D"
+    actions:
+    - actionType: 8
+      targetObjectName: 
+      targetPosition: {x: 0, y: 0}
+      duration: 0
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_Thought_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 1
+      targetObjectName: "\u9B54\u7378"
+      targetPosition: {x: 0, y: 0}
+      duration: 1.5
+      boolValue: 1
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_Thought_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u9B54\u7378\u73FE\u8EAB"
+    actions:
+    - actionType: 0
+      targetObjectName: Player
+      targetPosition: {x: 0, y: 0}
+      duration: 1.5
+      boolValue: 1
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_Thought_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 13
+      targetObjectName: "\u6D1E\u53E3\u4F4D\u7F6E"
+      targetPosition: {x: 0, y: 0}
+      duration: 1.5
+      boolValue: 1
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_Thought_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 19
+      targetObjectName: "\u6D1E\u53E3\u4F4D\u7F6E"
+      targetPosition: {x: 0, y: 0}
+      duration: 1.5
+      boolValue: 1
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_Thought_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u9B54\u7378\u79FB\u52D5\u5230\u5B9A\u4F4D\u9EDE"
+    actions:
+    - actionType: 0
+      targetObjectName: "\u9B54\u7378"
+      targetPosition: {x: 2, y: 0}
+      duration: 2
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_Thought_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u93E1\u982D\u8F49\u5411\u73A9\u5BB6"
+    actions:
+    - actionType: 13
+      targetObjectName: Player
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_Thought_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 18
+      targetObjectName: Player
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_Thought_01
+      objectToSpawn: {fileID: 0}
+      stringID: Loop_Battle
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u73A9\u5BB6\u53CD\u61C9"
+    actions:
+    - actionType: 8
+      targetObjectName: 
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_React_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u93E1\u982D\u8F49\u5411\u9B54\u7378"
+    actions:
+    - actionType: 13
+      targetObjectName: "\u9B54\u7378"
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_React_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 4
+      targetObjectName: "\u9B54\u7378"
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_React_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: -5975936317568484309, guid: 83b7b1b849a307546bac0307e41b5f70, type: 3}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u9B54\u7378\u543C\u53EB"
+    actions:
+    - actionType: 8
+      targetObjectName: 
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Monster_Roar_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u93E1\u982D\u518D\u6B21\u8F49\u5411\u73A9\u5BB6"
+    actions:
+    - actionType: 13
+      targetObjectName: Player
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Monster_Roar_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+    - actionType: 4
+      targetObjectName: "\u9B54\u7378"
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Monster_Roar_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 624409668554240681, guid: 72c73cc0b7c657846951b4e22398f477, type: 3}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}
+  - phaseName: "\u73A9\u5BB6\u4E0B\u5B9A\u6C7A\u5FC3"
+    actions:
+    - actionType: 8
+      targetObjectName: 
+      targetPosition: {x: 0, y: 0}
+      duration: 1
+      boolValue: 0
+      dialogueFilePath: Story/Story_Enemy_01_Dialogue
+      dialogueID: Player_Resolve_01
+      objectToSpawn: {fileID: 0}
+      stringID: 
+      newSprite: {fileID: 0}
+      rotationAngles: {x: 0, y: 0, z: 0}
+      parabolaHeight: 0
+      subStoryToRun: {fileID: 0}

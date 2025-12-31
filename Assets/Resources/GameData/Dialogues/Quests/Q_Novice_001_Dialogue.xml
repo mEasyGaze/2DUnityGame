@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+    <Dialogue id="Q_Novice_001_Branch">
+        <Segment id="Check">
+            <Branch>
+                <Check type="HasItem" value="IQS_01,1" />
+                <OnTrue>
+                    <Action type="GoToSegment" value="Completable" />
+                </OnTrue>
+                <OnFalse>
+                    <Action type="GoToSegment" value="InProgress" />
+                </OnFalse>
+            </Branch>
+        </Segment>
+
+        <Segment id="InProgress">
+            <DialogueChain>
+                <Line><Speaker>魔獸團衛兵</Speaker><Text>你爸爸總是忘記，把劍給我吧，我幫你轉交。</Text></Line>
+                <Line><Speaker>玩家</Speaker><Text>這...我好像忘了帶。</Text></Line>
+                <Line><Speaker>魔獸團衛兵</Speaker><Text>哈哈哈，沒事，這點跟你爸爸很像。</Text></Line>
+            </DialogueChain>
+            <IsEnd>true</IsEnd>
+            <Action type="EndDialogue" />
+        </Segment>
+
+        <Segment id="Completable">
+            <Speaker>魔獸團衛兵</Speaker>
+            <Text>你爸爸總是忘記，把劍給我吧，我幫你轉交。</Text>
+            <IsEnd>true</IsEnd>
+            <Options>
+                <Option>
+                    <Text>謝謝叔叔。</Text>
+                    <Action type="AdvanceQuestObjective" value="Q_Novice_001,NPC_Guard" />
+                    <Action type="RemoveItem" value="IQS_01,1" />
+                    <Action type="CompleteQuest" value="Q_Novice_001" />
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+    </Dialogue>
+</DialogueDatabase>

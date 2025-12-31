@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 66551b9d4eb210248895d58b429390db, type: 3}
+  m_Name: Novice_04_02
+  m_EditorClassIdentifier: 
+  tutorialID: Novice_04_Gathering02
+  tutorialTitle: "\u62FE\u53D6"
+  steps:
+  - title: "\u62FE\u53D6"
+    description: "\u73FE\u5728\uFF0C\u8ACB\u62FE\u53D6\u5730\u4E0A\u7684\u85E5\u8349\u3002"
+    image: {fileID: -7921142115710150718, guid: 319ffb55d509604478f704755c91d78f, type: 3}
+    layoutPrefab: {fileID: 4427178585775155239, guid: 6404230eb3fc33b4b9f85d3c6de0acc5, type: 3}

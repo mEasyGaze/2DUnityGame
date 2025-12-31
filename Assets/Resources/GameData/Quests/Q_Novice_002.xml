@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Quest id="Q_Novice_002">
+    <Name>跑腿任務</Name>
+    <Description>叔叔給了我100金幣，要我去商店幫他買5個藥草。</Description>
+    <GiverNPC>NPC_Guard_01</GiverNPC>
+    <HandInNPC>NPC_Guard_01</HandInNPC>
+    <Prerequisites>
+        <QuestID>Q_Novice_001</QuestID>
+    </Prerequisites>
+    <IsRepeatable>false</IsRepeatable>
+    <Objectives>
+        <Objective type="Collect" targetID="IQH_01" amount="5" description="購買5個藥草。" />
+    </Objectives>
+    <Rewards>
+    </Rewards>
+</Quest>

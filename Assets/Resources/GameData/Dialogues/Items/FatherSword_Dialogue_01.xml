@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+    <Dialogue id="Sword_Main">
+        <Segment id="Start">
+            <Branch>
+                <Check type="QuestStatus" value="Q_Novice_001,NotStarted" />
+                <OnTrue>
+                    <Action type="GoToSegment" value="Sword_Dialogue_01_Accept" />
+                </OnTrue>
+                <OnFalse>
+                    <Action type="GoToSegment" value="Sword_Dialogue_02_Pickup" />
+                </OnFalse>
+            </Branch>
+        </Segment>
+
+        <Segment id="Sword_Dialogue_01_Accept">
+            <Speaker>玩家</Speaker>
+            <Text>爸爸忘記帶武器了。</Text>
+            <IsEnd>true</IsEnd>
+            <Options>
+                <Option>
+                    <Text>我應該把武器拿去魔獸團給爸爸。</Text>
+                    <Action type="AcceptQuest" value="Q_Novice_001" />
+                    <Action type="GoToSegment" value="Sword_Dialogue_02_Pickup" />
+                </Option>
+            </Options>
+        </Segment>
+
+        <Segment id="Sword_Dialogue_02_Pickup">
+            <Speaker>玩家</Speaker>
+            <Text>我現在應該......</Text>
+            <IsEnd>true</IsEnd>
+            <Options>
+                <Option>
+                    <Text>[拾取]</Text>
+                    <Action type="AddItem" value="IQS_01,1" />
+                    <Action type="TriggerGameEvent" value="Event_SwordPickedUp" />
+                    <Action type="TriggerGameEvent" value="Start_TUT_002" />
+                    <Action type="EndDialogue" />
+                </Option>
+                <Option>
+                    <Text>[放棄]</Text>
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+    </Dialogue>
+</DialogueDatabase>

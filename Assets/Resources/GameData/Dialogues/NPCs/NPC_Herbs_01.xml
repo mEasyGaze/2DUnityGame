@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+    <Dialogue id="Main_Herbs">
+        <Segment id="Start">
+            <Speaker>藥草商人</Speaker>
+            <Text>你好，需要什麼？</Text>
+
+            <Options>
+                <Option>
+                    <Text>我想看看你有什麼東西。</Text>
+                    <Action type="OpenShop" value="HerbsShop_Continue" />
+                </Option>
+
+                <Option>
+                    <Text>你有什麼需要幫忙嗎？</Text>
+                    <Condition type="QuestAvailable" value="Q_Novice_003"/>
+                    <Action type="StartDialogue" value="Quests/Q_Novice_003_Dialogue,Novice_003_Available" />
+                </Option>
+
+                <Option>
+                    <Text>我要提交任務。</Text>
+                    <Condition type="QuestStatus" value="Q_Novice_003,InProgress"/>
+                    <Action type="StartDialogue" value="Quests/Q_Novice_003_Dialogue,Q_Novice_003_Branch"/>
+                </Option>
+
+                <Option>
+                    <Text>沒事。</Text>
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+
+        <Segment id="HerbsShop_Continue">
+            <Speaker>藥草商人</Speaker>
+            <Text>歡迎下次再來。</Text>
+            <IsEnd>true</IsEnd>
+            <Options>
+                <Option>
+                    <Text>[離開]</Text>
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+    </Dialogue>
+</DialogueDatabase>

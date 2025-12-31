@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Quest id="Q_Novice_001">
+    <Name>轉交武器</Name>
+    <Description>爸爸忘記帶武器了，將武器拿去魔獸團給他。</Description>
+    <GiverNPC>FatherSword</GiverNPC>
+    <HandInNPC>NPC_Guard</HandInNPC>
+    <Objectives>
+        <Objective type="Talk" targetID="NPC_Guard" amount="1" description="將武器帶去給魔獸團的衛兵。" />
+    </Objectives>
+    <Rewards>
+        <Money>0</Money>
+    </Rewards>
+</Quest>

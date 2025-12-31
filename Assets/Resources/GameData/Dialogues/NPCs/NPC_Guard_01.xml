@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DialogueDatabase>
+    <Dialogue id="Main_Guard">
+        <Segment id="Start">
+            <Speaker>魔獸團衛兵</Speaker>
+            <Text>是你啊，今天又來做什麼呢？</Text>
+            
+            <Options>
+                <Option>
+                    <Text>來幫爸爸送武器。</Text>
+                    <Condition type="QuestStatus" value="Q_Novice_001,InProgress"/>
+                    <Action type="StartDialogue" value="Quests/Q_Novice_001_Dialogue,Q_Novice_001_Branch"/>
+                </Option>
+
+                <Option>
+                    <Text>有什麼需要我幫忙的嗎？</Text>
+                    <Condition type="QuestAvailable" value="Q_Novice_002"/>
+                    <Action type="StartDialogue" value="Quests/Q_Novice_002_Dialogue,Novice_002_Available"/>
+                </Option>
+
+                <Option>
+                    <Text>我是來交付任務的。</Text>
+                    <Condition type="QuestStatus" value="Q_Novice_002,InProgress"/>
+                    <Action type="StartDialogue" value="Quests/Q_Novice_002_Dialogue,Q_Novice_002_Branch"/>
+                </Option>
+
+                <Option>
+                    <Text>沒事。</Text>
+                    <Action type="EndDialogue" />
+                </Option>
+            </Options>
+        </Segment>
+    </Dialogue>
+</DialogueDatabase>

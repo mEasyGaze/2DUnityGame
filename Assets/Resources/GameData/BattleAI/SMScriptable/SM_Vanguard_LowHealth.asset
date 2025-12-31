@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ede97b01ebebf4488e2bc508d2d389d, type: 3}
+  m_Name: SM_Vanguard_LowHealth
+  m_EditorClassIdentifier: 
+  weight: 1
+  conditions:
+  - stat: 0
+    valueRange: {x: 0, y: 0.2}
+  scores:
+  - action: 0
+    scoreAdjustment: 0
+  - action: 1
+    scoreAdjustment: 50
+  - action: 2
+    scoreAdjustment: -50
+  - action: 5
+    scoreAdjustment: 50
